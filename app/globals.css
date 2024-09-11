@@ -37,22 +37,6 @@ a {
   background: var(--icons-color);
 }
 
-::-webkit-scrollbar{
-  width: 1rem;
-  border: 1px solid var(--main-bg-color);
-}
-
-::-webkit-scrollbar-track{
-  border-radius: 0;
-  background-color: var(--main-bg-color);
-}
-
-::-webkit-scrollbar-thumb{
-  border-radius: 2rem;
-  background: var(--icons-color);
-  width: .5rem;
-}
-
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -62,49 +46,17 @@ a {
 }
 
 body {
-  min-height: 100vh;
-  min-width: 100vh;
-  margin: 0;
-  padding: 0;
-  color: #fff;
-
-  display: flex;
-  flex-direction: column;
-
-  .wallet-button {
-    background-color: #212429;
-    color: white;
-    border: none;
-    font-size: 16px;
-  };
-
-  /* Chrome, Safari, Edge, Opera */
-  input::-webkit-outer-spin-button,
-  input::-webkit-inner-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-  };
-
-  /* Firefox */
-  input[type=number] {
-    -moz-appearance: textfield;
-  };
-
-  .notification::-webkit-scrollbar {
-    display: none;
-  };
-};
-
-.footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: auto;
-};
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-};
+}
