@@ -84,14 +84,6 @@ body {
     font-size: 16px;
   };
 
-  #canvas {
-    width: 90%;
-    height: 100%;
-    background: url('../app/images/bg1.png') repeat center center;
-    background-size: 30%;
-    background-blend-mode: multiply;
-  };
-
   /* Chrome, Safari, Edge, Opera */
   input::-webkit-outer-spin-button,
   input::-webkit-inner-spin-button {
