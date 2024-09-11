@@ -67,12 +67,6 @@ body {
   margin: 0;
   padding: 0;
   color: #fff;
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-start-rgb))
-    )
-    rgb(var(--background-start-rgb));
 
   display: flex;
   flex-direction: column;
