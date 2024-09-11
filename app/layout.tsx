@@ -11,7 +11,7 @@ import Footer from "./(components)/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Aptos Rock Paper Scissors",
+  title: "Aptos Marketplace",
   description: "Created by Nashki",
 };
 
