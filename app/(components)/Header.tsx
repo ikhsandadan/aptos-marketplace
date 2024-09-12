@@ -69,6 +69,7 @@ const Header = () => {
         setUserAddress(undefined);
         setNotification([]);
         router.push('/');
+        window.location.reload();
     };
 
     const copyWallet = (e: any) => {
