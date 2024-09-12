@@ -23,3 +23,5 @@ Aptos Marketplace is a decentralized digital trading platform built on the Aptos
 5.  **Responsive Interface:**  Web design that is responsive for optimal user experience across different devices.
 
 Here's a video demonstrating how to use the app.
+
+[![aptos-marketplace-demo](https://img.youtube.com/vi/gBQeorn_F1U/0.jpg)](https://www.youtube.com/watch?v=gBQeorn_F1U)
