@@ -4,6 +4,12 @@
 
 Link to Aptos Marketplace app: [Aptos-Marketplace](https://aptos-marketplace-zeta.vercel.app/)
 
+
+
+![Home](https://github.com/user-attachments/assets/a5a65292-0bb7-4312-8232-3255494b12a6)
+
+
+
 ## **Project Description:**
 
 Aptos Marketplace is a decentralized digital trading platform built on the Aptos blockchain. This project aims to create a secure, efficient, and user-friendly ecosystem for users to buy and sell digital assets, with a primary focus on NFTs (Non-Fungible Tokens).
