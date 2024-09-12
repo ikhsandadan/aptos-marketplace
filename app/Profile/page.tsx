@@ -9,13 +9,13 @@ import NFTCardCreation from '../(components)/NFTCardCreation';
 import NFTCardProfile from '../(components)/NFTCardProfile';
 
 const Profile = () => {
-    const { adminAccount, nftCollectionAddress, myNft, ownedNfts, getUserOwnedNft, getNft } = useAppContext();
+    const { adminAccount, nftCollectionAddress, myNft, getUserOwnedNft, getNft } = useAppContext();
     const { userAddress } = useUserContext();
 
     useEffect(() => {
         const fetchData = async () => {
             if (adminAccount && nftCollectionAddress && userAddress) {
-                await getUserOwnedNft(userAddress?.toString());
+                await getUserOwnedNft(userAddress.toString());
             }
         };
 
@@ -32,7 +32,7 @@ const Profile = () => {
         };
 
         fetchData();
-    }, [myNft]);
+    }, [myNft, adminAccount]);
 
     return (
         <div style={{minHeight: '75vh'}} className='flex flex-col gap-4 items-center justify-center mt-20'>
