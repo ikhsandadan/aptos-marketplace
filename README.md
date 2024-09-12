@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
 
-First, run the development server:
+# **Aptos Marketplace**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Link to Aptos Marketplace app: [Aptos-Marketplace](https://aptos-marketplace-zeta.vercel.app/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## **Project Description:**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Aptos Marketplace is a decentralized digital trading platform built on the Aptos blockchain. This project aims to create a secure, efficient, and user-friendly ecosystem for users to buy and sell digital assets, with a primary focus on NFTs (Non-Fungible Tokens).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+**Key Features:**
 
-## Learn More
+1.  **Aptos Blockchain Integration:**  Leverages the high transaction speed and security of the Aptos blockchain.
+2.  **NFT Trading:**  Allows users to sell, buy, and auction NFTs across various categories.
+3.  **Search and Filter:**  Advanced search system to find NFTs based on name, category, and price.
+4.  **User Profiles:**  Enables users to showcase their NFT collections and listed NFTs.
+5.  **Responsive Interface:**  Web design that is responsive for optimal user experience across different devices.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Here's a video demonstrating how to use the app.
