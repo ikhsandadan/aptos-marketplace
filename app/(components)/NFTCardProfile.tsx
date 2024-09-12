@@ -34,8 +34,6 @@ const NFTCardProfile = () => {
                 await handleListNft(adminAccount, userAddress, nftObjectAddress, price);
                 setIsLoading(false);
                 setShowPrices(prev => ({ ...prev, [nftName]: false }));
-
-                window.location.reload();
             } catch (error: any) {
                 console.log(error);
                 setIsLoading(false);
